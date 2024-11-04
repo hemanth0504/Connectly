@@ -28,7 +28,7 @@ export const useCreateOrGetConversation = () => {
   const isSettled = useMemo(() => status === "settled", [status]);
 
   const mutation = useMutation(api.conversations.createOrGet);
-  const [conversationId, setConversationId] = useState<Id<"conversations"> | null>(null);
+  const [] = useState<Id<"conversations"> | null>(null);
 
   const mutate = useCallback(async (values: RequestType, options?: Options) => {
     try {

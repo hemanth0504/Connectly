@@ -19,7 +19,6 @@ import {
   DropdownMenuRadioGroup,
   DropdownMenuRadioItem,
 } from "@/components/ui/dropdown-menu";
-import { DropdownMenuItem } from "@radix-ui/react-dropdown-menu";
 
 interface ProfileProps {
     memberId: Id<"members">;
@@ -43,8 +42,8 @@ interface ProfileProps {
   
     const router = useRouter();
     const workspaceId = useWorkspaceId();
-    const { mutate: updateMember, isPending: isUpdatingMember } = useUpdateMember();
-  const { mutate: removeMember, isPending: isRemovingMember } = useRemoveMember();
+    const { mutate: updateMember} = useUpdateMember();
+  const { mutate: removeMember } = useRemoveMember();
   const onRemove = async () => {
     const ok = await confirmRemove();
 

@@ -20,7 +20,7 @@ export const WorkspaceSwitcher = () => {
     const workspaceId = useWorkspaceId();
     const[_open, setOpen] = useCreateWorkspaceModal();
 
-    const {data : workspaces, isLoading : workspacesLoading} = useGetWorkspaces();
+    const {data : workspaces} = useGetWorkspaces();
     const {data : workspace, isLoading :workspaceLoading} = useGetWorkspace({
         id: workspaceId
     });
