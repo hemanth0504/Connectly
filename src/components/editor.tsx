@@ -8,9 +8,7 @@ import { Hint } from "./hint";
 import {MdSend} from "react-icons/md"
 import { Delta, Op } from "quill/core"
 import { cn } from "@/lib/utils";
-import { current } from "../../convex/members";
 import { EmojiPopover } from "./emoji-popover";
-import { eventNames } from "process";
 import Image from "next/image";
 
 

@@ -1,9 +1,9 @@
 import { UserButton } from "@/features/auth/components/user-button";
 import { WorkspaceSwitcher } from "./workspace-switcher";
 import { SidebarButton } from "./sidebar-button";
-import  { Bell, BellIcon, LucideHome, MessagesSquareIcon, MoreHorizontal } from "lucide-react";
+import  { Bell, LucideHome, MessagesSquareIcon, MoreHorizontal } from "lucide-react";
 import { usePathname } from "next/navigation";
-import path from "path";
+
 
 export const Sidebar = () => {
     const pathname = usePathname();

@@ -6,7 +6,7 @@ import {
     DialogContent,
     DialogHeader,
     DialogTitle,
-    DialogTrigger,
+  
   } from "@/components/ui/dialog"
 import { useCreateChannelModal } from "../store/use-create-channel-modal"
 import { Input } from "@/components/ui/input";
@@ -14,8 +14,7 @@ import { Button } from "@/components/ui/button";
 import { UseCreateChannel } from "../api/use-create-channel";
 import { useWorkspaceId } from "@/hooks/use-workspace-id";
 import { useRouter } from "next/navigation";
-import { useChannelId } from "@/hooks/use-channel-id";
-import { Toaster, toast } from "sonner";
+import {  toast } from "sonner";
 
 
 

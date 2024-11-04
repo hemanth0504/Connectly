@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Id } from "../../../../convex/_generated/dataModel";
-import { cachedDataVersionTag } from "v8";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 import Link from "next/link";

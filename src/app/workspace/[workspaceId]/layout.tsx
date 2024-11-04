@@ -9,7 +9,6 @@ import {
 
 import { Sidebar } from "./sidebar";
 import { Toolbar } from "./toolbar";
-import { WorkspaceSwitcher } from "./workspace-switcher";
 import { WorkspaceSidebar } from "./workspace-sidebar";
 import { usePanel } from "@/hooks/use-panel";
 import { Loader } from "lucide-react";

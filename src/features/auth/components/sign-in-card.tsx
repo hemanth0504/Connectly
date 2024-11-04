@@ -8,7 +8,7 @@ import { Separator } from "@/components/ui/separator";
 import { SignInFlow } from "../types";
 import { useState } from "react";
 import { useAuthActions } from "@convex-dev/auth/react";
-import { Router, TriangleAlertIcon } from "lucide-react";
+import {  TriangleAlertIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 interface SignInCardProps

@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { useGetWorkspace } from "@/features/workspaces/api/use-get-workspace";
 import { useGetWorkspaceInfo } from "@/features/workspaces/api/use-get-workspace-info";
 import { useJoin } from "@/features/workspaces/api/use-join";
 import { useWorkspaceId } from "@/hooks/use-workspace-id";
