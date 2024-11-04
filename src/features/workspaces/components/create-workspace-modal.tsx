@@ -19,7 +19,7 @@ import { toast } from "sonner";
     const [name, setName] = useState("");
 
 
-    const {mutate, isPending, isError, isSuccess, isSettled} = UseCreateWorkspace();
+    const {mutate, isPending} = UseCreateWorkspace();
     const handleclose = ()=> {
         setOpen(false);
         setName("");

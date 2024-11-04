@@ -7,7 +7,6 @@ import {
     DialogFooter,
     DialogHeader,
     DialogTitle,
-    DialogTrigger,
   } from "@/components/ui/dialog"
   
 
@@ -18,7 +17,7 @@ import {
   ): [()=>JSX.Element,()=>Promise<unknown>] => {
     const [promise, setPromise] = useState<{resolve : (value:boolean)=>void}| null>(null);
 
-const confirm = () => new Promise( (resolve, reject) => {
+const confirm = () => new Promise( (resolve) => {
     setPromise({ resolve });
  }) ;
     const handleClose = () => {
